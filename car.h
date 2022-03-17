@@ -1,19 +1,15 @@
-//
-// Created by Joach on 17.03.2022.
-//
-
 #ifndef UNTITLED2_CAR_H
 #define UNTITLED2_CAR_H
 #include <string>
 
 class Car{
 private:
-    std::string brand;
+    std::string brand_;
 
 public:
     void honk();
     Car(std::string x){
-        brand = x;
+        brand_ = x;
     }
 };
 
